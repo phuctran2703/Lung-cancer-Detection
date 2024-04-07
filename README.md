@@ -11,7 +11,7 @@ This project proposes constructing a deep learning model to detect and classify 
 ## The research methodology includes:
 1. Collection and preprocessing of CT image datasets from lung cancer patients.
 2. Building CNN models to extract features from CT images.
-3. Applying deep learning algorithms to classify cancer cells.
+3. Applying machine learning algorithms to classify cancer cells.
 4. Evaluating the model's effectiveness on real-world datasets.
 
 ## Expected outcomes of the project:
