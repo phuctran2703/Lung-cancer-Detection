@@ -5,12 +5,12 @@ Deep learning is a branch of artificial intelligence that can be utilized for me
 This project proposes constructing a deep learning model to detect and classify lung cancer from CT images. The model will utilize CNNs to extract features from CT images and then apply machine learning algorithms to classify cancer cells.
 
 ## The objectives of the project:
-* Build a deep learning model to classify lung cancer cells from CT images.
+* Apply a deep learning model to classify lung cancer cells from CT images.
 * Evaluate the effectiveness of the model on real-world datasets.
 
 ## The research methodology includes:
 1. Collection and preprocessing of CT image datasets from lung cancer patients.
-2. Building CNN models to extract features from CT images.
+2. Apply CNN models to extract features from CT images.
 3. Applying machine learning algorithms to classify cancer cells.
 4. Evaluating the model's effectiveness on real-world datasets.
 
