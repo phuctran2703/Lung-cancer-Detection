@@ -12,35 +12,14 @@ This project proposes constructing a deep learning model to detect and classify 
 
 ## Result
 The effectiveness of each model when classifying lung cancer:
-- **DenseNet121**
+| Model        | Accuracy  |
+|--------------|--------------|
+| DenseNet121  | 0.97         |
+| Alexnet      | 0.14         |
+| Lenet5       | 0.97         |
+| ResNet50     | 0.99         |
+| VGG16        | 0.98         |
 
-![dense](picture/dense.jpg)
-![denseacc](picture/denseacc.png)
-![denseloss](picture/denseloss.png)
-
-- **Alexnet**
-
-![alex](picture/alex.jpg)
-![alexnet-accuracy](picture/alexnet-accuracy.png)
-![alexnet-loss](picture/alexnet-loss.png)
-
-- **Lenet5**
-
-![alt text](picture/let.jpg)
-![alt text](picture/letnet5-accuracy.png)
-![alt text](picture/letnet5-loss.png)
-
-- **ResNet50**
-
-![alt text](picture/res.jpg)
-![alt text](picture/ResNet_accuracy.jpg)
-![alt text](picture/ResNet_Loss.jpg)
-
-- **VGG16**
-
-![alt text](picture/vgg.jpg)
-![alt text](picture/vgg-16_accuracy.jpg)
-![alt text](picture/vgg-16_loss.jpg)
 
 ## Applications of the project include
 * Supporting lung cancer diagnosis.
