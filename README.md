@@ -4,19 +4,43 @@ Lung cancer is one of the most prevalent types of cancer worldwide. Early detect
 Deep learning is a branch of artificial intelligence that can be utilized for medical image analysis. Convolutional neural networks (CNNs) have proven to be effective in classifying medical images.
 This project proposes constructing a deep learning model to detect and classify lung cancer from CT images. The model will utilize CNNs to extract features from CT images and then apply machine learning algorithms to classify cancer cells.
 
-## The objectives of the project
-* Apply a deep learning model to classify lung cancer cells from CT images.
-* Evaluate the effectiveness of the model on real-world datasets.
-
 ## The research methodology includes
 1. Collection and preprocessing of CT image datasets from lung cancer patients.
-2. Apply CNN models to extract features from CT images.
+2. Apply CNN models to classify lung cancer cells from CT images. CNN models includes: Alexnet, DenseNet121, Lenet5, ResNet50, VGG16.
 3. Applying machine learning algorithms to classify cancer cells.
 4. Evaluating the model's effectiveness on real-world datasets.
 
-## Expected outcomes of the project
-The model achieving high accuracy in classifying lung cancer cells.
-The model being able to differentiate between different stages of lung cancer.
+## Result
+The effectiveness of each model when classifying lung cancer:
+- **DenseNet121**
+
+![dense](picture/dense.jpg)
+![denseacc](picture/denseacc.png)
+![denseloss](picture/denseloss.png)
+
+- **Alexnet**
+
+![alex](picture/alex.jpg)
+![alexnet-accuracy](picture/alexnet-accuracy.png)
+![alexnet-loss](picture/alexnet-loss.png)
+
+- **Lenet5**
+
+![alt text](picture/let.jpg)
+![alt text](picture/letnet5-accuracy.png)
+![alt text](picture/letnet5-loss.png)
+
+- **ResNet50**
+
+![alt text](picture/res.jpg)
+![alt text](picture/ResNet_accuracy.jpg)
+![alt text](picture/ResNet_Loss.jpg)
+
+- **VGG16**
+
+![alt text](picture/vgg.jpg)
+![alt text](picture/vgg-16_accuracy.jpg)
+![alt text](picture/vgg-16_loss.jpg)
 
 ## Applications of the project include
 * Supporting lung cancer diagnosis.
