@@ -15,7 +15,6 @@ The effectiveness of each model when classifying lung cancer:
 | Model        | Accuracy  |
 |--------------|--------------|
 | DenseNet121  | 0.97         |
-| Alexnet      | 0.14         |
 | Lenet5       | 0.97         |
 | ResNet50     | 0.99         |
 | VGG16        | 0.98         |
