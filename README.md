@@ -1,4 +1,4 @@
-# Lung-cancer-Detection
+# Lung Cancer Detection and Classification through CT Images
 ## Introduction
 Lung cancer is one of the most prevalent types of cancer worldwide. Early detection of lung cancer can significantly improve patient survival rates. Computed tomography (CT) imaging is an effective diagnostic imaging method for detecting lung cancer. However, analyzing CT images can be challenging due to their complexity and variations.
 Deep learning is a branch of artificial intelligence that can be utilized for medical image analysis. Convolutional neural networks (CNNs) have proven to be effective in classifying medical images.
