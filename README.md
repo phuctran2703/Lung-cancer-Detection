@@ -10,6 +10,12 @@ This project proposes constructing a deep learning model to detect and classify 
 3. Applying machine learning algorithms to classify cancer cells.
 4. Evaluating the model's effectiveness on real-world datasets.
 
+
+## Dataset
+### Begin: Describing early-stage cancer
+![begin1](/picture/alexnet-accuracy.png)
+
+
 ## Result
 The effectiveness of each model when classifying lung cancer:
 | Model        | Accuracy  |
