@@ -13,17 +13,21 @@ This project proposes constructing a deep learning model to detect and classify 
 
 ## Dataset
 ### Begin: Describing early-stage cancer
-![begin1](/picture/alexnet-accuracy.png)
+|![begin1](/Data/begin/Bengin%20case%20(1).jpg)|![begin2](/Data/begin/Bengin%20case%20(2).jpg)|
+### Malignants: Describing malignant cancer
+|![Malignants1](/Data/malignants/Malignant%20case%20(1).jpg)|![beginMalignants2](/Data/malignants/Malignant%20case%20(10).jpg)|
+### Normal: Describing the normal stage
+|![begin1](/Data/normal/Normal%20case%20(1).jpg)|![begin1](/Data/normal/Normal%20case%20(10).jpg)|
 
 
 ## Result
 The effectiveness of each model when classifying lung cancer:
-| Model        | Accuracy  |
-|--------------|--------------|
-| DenseNet121  | 0.97         |
-| Lenet5       | 0.97         |
-| ResNet50     | 0.99         |
-| VGG16        | 0.98         |
+| Model        | Accuracy  |Precision|Recall|F1-score|
+|--------------|--------------|---------|-------|--------|
+| DenseNet121  | 0.97         |0.97|0.94|0.95|
+| Lenet5       | 0.97         |0.96|0.97|0.96|
+| ResNet50     | 0.99         |0.99|0.99|0.99|
+| VGG16        | 0.98         |0.98|0.94|0.96|
 
 
 ## Applications of the project include
